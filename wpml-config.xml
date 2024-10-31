@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="_gaoo_link_deactivate"/>
+        <key name="_gaoo_link_activate"/>
+        <key name="_gaoo_popup_deactivate"/>
+        <key name="_gaoo_popup_activate"/>
+    </admin-texts>
+</wpml-config>

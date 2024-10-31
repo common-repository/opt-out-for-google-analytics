@@ -1,0 +1,310 @@
+.plugins-php .gaoo-plugin-action .dashicons,
+.hide {
+    display: none;
+}
+
+.form-table td.valign-top {
+    vertical-align: top;
+}
+
+.form-table table td {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#gaoo-custom-css {
+    margin-right: 15px;
+}
+
+#gaoo-ua-code,
+#ga-plugin-tracking-code {
+    margin-top: 15px;
+}
+
+#gaoo label a.dashicons {
+    font-size: 16px;
+    vertical-align: sub;
+}
+
+.gaoo-promotion img {
+    box-shadow: 0px 3px 15px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.mce-ico.mce-i-gaoptout {
+    background-image: url('icon.png');
+}
+
+.gaoo-empty-popup, .gaoo-clipboard, code {
+    cursor: pointer;
+}
+
+.gaoo-empty-popup.empty {
+    display: none;
+}
+
+.gaoo-clipboard:hover, code:hover {
+    opacity: .6;
+}
+
+.gaoo-check li a .dashicons {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.gaoo-check li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gaoo-check li a:hover {
+    opacity: .6;
+}
+
+.gaoo-check {
+    color: #dc3232 !important;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.gaoo-check li:before {
+    content: "\2718";
+    margin-right: 5px;
+}
+
+.gaoo-check li.check:before {
+    content: "\2713";
+}
+
+.gaoo-check li.check {
+    color: #46b450 !important;
+}
+
+.gaoo-check li.dontknow:before {
+    content: "?";
+}
+
+.gaoo-check li.dontknow {
+    color: #ffba00 !important;
+}
+
+#dashboard-widgets #ga-opt-out a {
+    text-decoration: none;
+}
+
+#dashboard-widgets-wrap #ga-opt-out .subsubsub {
+    float: none;
+    border-top: 1px solid #f0f0f1;
+    margin: 15px -12px -12px;
+    padding: 8px 12px 4px;
+}
+
+
+#dashboard-widgets-wrap #ga-opt-out .subsubsub li + li:before {
+    content: '|';
+    padding: 0 6px;
+    color: #ccc;
+}
+
+#gaoo-checklist h2 {
+    margin-top: 0;
+    font-size: 1em;
+}
+
+#dashboard-widgets #gaoo-checklist h2 {
+    display: none;
+}
+
+#dashboard-widgets #gaoo-checklist li {
+    display: block;
+    padding-right: 0;
+    margin-bottom: 8px;
+}
+
+#gaoo-checklist li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+#dashboard-widgets #gaoo-checklist {
+    margin: 0;
+}
+
+#gaoo-checklist {
+    border-left: 5px solid #fff;
+    padding: 0 10px;
+    margin: 30px 0 0;
+    font-size: 1em;
+}
+
+#gaoo-checklist.dontknow {
+    border-left-color: #ffba00;
+}
+
+#gaoo-checklist.todo {
+    border-left-color: #dc3232;
+}
+
+#gaoo-checklist.done {
+    border-left-color: #46b450;
+}
+
+.gaoo-rate-stars {
+    display: inline-block;
+    color: #ffb900;
+    position: relative;
+    top: 3px;
+}
+
+.gaoo-rate-stars svg {
+    fill: #ffb900;
+}
+
+.gaoo-rate-stars svg:hover {
+    fill: #ffb900
+}
+
+.gaoo-rate-stars svg:hover ~ svg {
+    fill: none;
+}
+
+.gaoo-rate-wrap {
+    margin-top: 15px;
+}
+
+.gaoo-promotion-box {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .5s;
+    z-index: 999;
+    box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    background-color: #fff;
+}
+
+.gaoo-promotion-box h2 {
+    background-color: #23282d;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.gaoo-promotion-box h2 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 100%;
+    padding: 2px 6px;
+    float: right;
+    font-size: 17px;
+    transition: all .4s;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.gaoo-promotion-box h2 a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.gaoo-promotion-box .gaoo-promotion-box-body img {
+    width: 100%;
+}
+
+.gaoo-promotion-box .gaoo-promotion-box-body .gaoo-promotion-link {
+    line-height: 0;
+    display: block;
+}
+
+.gaoo-promotion-box .gaoo-promotion-box-body .gaoo-promotion-description {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.gaoo-promotion-wrap .gaoo-promotion-box {
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 21px -10px rgba(0, 0, 0, 0.75);
+    transition: all .5s;
+    line-height: 0;
+    position: relative;
+    bottom: unset;
+    right: unset;
+}
+
+.gaoo-promotion-wrap .gaoo-promotion-box:hover {
+    box-shadow: 0 0 21px -10px rgba(220, 50, 50, .75);
+    -webkit-box-shadow: 0 0 21px -10px rgba(220, 50, 50, .75);
+    -moz-box-shadow: 0 0 21px -10px rgba(220, 50, 50, .75);
+}
+
+.gaoo-promotion-wrap .gaoo-promotion-box + .gaoo-promotion-box {
+    margin-left: 20px;
+}
+
+
+/* tablet */
+@media screen and ( max-width: 768px ) {
+    .gaoo-promotion-wrap .gaoo-promotion-box + .gaoo-promotion-box {
+        margin-left: 0;
+    }
+
+    #gaoo-checklist li {
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    #gaoo .form-table label {
+        font-size: 17px;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+
+    #gaoo .form-table table {
+        width: 100%;
+    }
+
+    #gaoo label a.dashicons {
+        font-size: 30px;
+    }
+
+    #gaoo a.dashicons {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    #gaoo a.dashicons[title] {
+        width: 100%;
+        text-align: left;
+    }
+
+    #gaoo a.dashicons[title]:after {
+        content: attr(title);
+        font-size: 19px;
+        vertical-align: top;
+        padding-left: 5px;
+    }
+
+    .gaoo-empty-popup {
+        display: none;
+    }
+
+    #gaoo-ua-code {
+        margin-top: 20px;
+    }
+}
+
+/* mobile */
+@media screen and ( max-width: 360px ) {
+
+}
